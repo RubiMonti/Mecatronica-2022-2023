@@ -8,3 +8,5 @@ Este es un
 Esta palabra está en **negrita**
 
 Esta palabra está en *cursiva*
+
+![](Logo-urjc.png)
