@@ -124,7 +124,7 @@
           "id": "5fbfb165-12d3-439d-973f-c348adc75d5f",
           "type": "basic.info",
           "data": {
-            "info": "# Mi primer código\n\nEnciende el **LED0** de la placa Alhambra II",
+            "info": "# Mi primer código\n\nEnciende **LED0**, **LED1** y **LED7** de la placa Alhambra II",
             "readonly": true
           },
           "position": {

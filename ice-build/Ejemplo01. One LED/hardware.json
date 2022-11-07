@@ -9663,66 +9663,102 @@
     "main": {
       "attributes": {
         "top": "00000000000000000000000000000001",
-        "src": "main.v:6.1-16.10"
+        "src": "main.v:6.1-25.10"
       },
       "ports": {
-        "v0658ae": {
+        "v8f8964": {
+          "direction": "output",
+          "bits": [ "1" ]
+        },
+        "v6d1e30": {
+          "direction": "output",
+          "bits": [ "1" ]
+        },
+        "v106aba": {
           "direction": "output",
           "bits": [ "1" ]
         },
         "vinit": {
           "direction": "output",
           "upto": 1,
-          "bits": [ "0", "0", "0", "0", "0", "0", "0" ]
+          "bits": [ "0", "0", "0", "0", "0" ]
         }
       },
       "cells": {
       },
       "netnames": {
-        "v0658ae": {
+        "v106aba": {
+          "hide_name": 0,
+          "bits": [ "1" ],
+          "attributes": {
+            "src": "main.v:9.9-9.16"
+          }
+        },
+        "v6d1e30": {
+          "hide_name": 0,
+          "bits": [ "1" ],
+          "attributes": {
+            "src": "main.v:8.9-8.16"
+          }
+        },
+        "v8f8964": {
           "hide_name": 0,
           "bits": [ "1" ],
           "attributes": {
             "src": "main.v:7.9-7.16"
           }
         },
-        "v931d33.v608bd9": {
+        "vfd7d62.v9fb85f": {
           "hide_name": 0,
           "bits": [ "1" ],
           "attributes": {
-            "hdlname": "v931d33 v608bd9",
-            "src": "main.v:12.10-14.3|main.v:25.9-25.16"
+            "hdlname": "vfd7d62 v9fb85f",
+            "src": "main.v:21.10-23.3|main.v:34.9-34.16"
           }
         },
-        "v931d33.v68c173.v": {
+        "vfd7d62.vb2eccd.q": {
           "hide_name": 0,
           "bits": [ "1" ],
           "attributes": {
-            "hdlname": "v931d33 v68c173 v",
-            "src": "main.v:12.10-14.3|main.v:41.9-41.10|main.v:29.18-31.3"
+            "hdlname": "vfd7d62 vb2eccd q",
+            "src": "main.v:21.10-23.3|main.v:50.9-50.10|main.v:38.18-40.3"
           }
         },
-        "v931d33.w0": {
+        "vfd7d62.w0": {
           "hide_name": 0,
           "bits": [ "1" ],
           "attributes": {
-            "hdlname": "v931d33 w0",
-            "src": "main.v:12.10-14.3|main.v:27.7-27.9"
+            "hdlname": "vfd7d62 w0",
+            "src": "main.v:21.10-23.3|main.v:36.7-36.9"
           }
         },
         "vinit": {
           "hide_name": 0,
-          "bits": [ "0", "0", "0", "0", "0", "0", "0" ],
+          "bits": [ "0", "0", "0", "0", "0" ],
           "upto": 1,
           "attributes": {
-            "src": "main.v:8.15-8.20"
+            "src": "main.v:10.15-10.20"
           }
         },
         "w0": {
           "hide_name": 0,
           "bits": [ "1" ],
           "attributes": {
-            "src": "main.v:10.7-10.9"
+            "src": "main.v:12.7-12.9"
+          }
+        },
+        "w1": {
+          "hide_name": 0,
+          "bits": [ "1" ],
+          "attributes": {
+            "src": "main.v:13.7-13.9"
+          }
+        },
+        "w2": {
+          "hide_name": 0,
+          "bits": [ "1" ],
+          "attributes": {
+            "src": "main.v:14.7-14.9"
           }
         }
       }

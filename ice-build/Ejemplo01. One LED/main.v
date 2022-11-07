@@ -4,15 +4,24 @@
 
 //---- Top entity
 module main (
- output v0658ae,
- output [0:6] vinit
+ output v8f8964,
+ output v6d1e30,
+ output v106aba,
+ output [0:4] vinit
 );
  wire w0;
- assign v0658ae = w0;
- v3e6c24 v931d33 (
-  .v608bd9(w0)
+ wire w1;
+ wire w2;
+ assign v8f8964 = w0;
+ assign v6d1e30 = w1;
+ assign v106aba = w2;
+ assign w1 = w0;
+ assign w2 = w0;
+ assign w2 = w1;
+ vfebcfe vfd7d62 (
+  .v9fb85f(w0)
  );
- assign vinit = 7'b0000000;
+ assign vinit = 5'b00000;
 endmodule
 
 //---------------------------------------------------
@@ -21,26 +30,27 @@ endmodule
 //-- 
 //---------------------------------------------------
 //---- Top entity
-module v3e6c24 (
- output v608bd9
+module vfebcfe (
+ output v9fb85f
 );
  wire w0;
- assign v608bd9 = w0;
- v3e6c24_v68c173 v68c173 (
-  .v(w0)
+ assign v9fb85f = w0;
+ vfebcfe_vb2eccd vb2eccd (
+  .q(w0)
  );
 endmodule
 
 //---------------------------------------------------
-//-- Bit 1
+//-- bit-1
 //-- - - - - - - - - - - - - - - - - - - - - - - - --
-//-- Assign 1 to the output wire
+//-- Constant bit 1
 //---------------------------------------------------
 
-module v3e6c24_v68c173 (
- output v
+module vfebcfe_vb2eccd (
+ output q
 );
- // Bit 1
+ //-- Constant bit-1
+ assign q = 1'b1;
  
- assign v = 1'b1;
+ 
 endmodule
